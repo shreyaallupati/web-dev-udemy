@@ -1,5 +1,4 @@
 import { streamText, UIMessage, convertToModelMessages} from "ai";
-//import { google } from "@ai-sdk/google";
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 
 const google = createGoogleGenerativeAI({
